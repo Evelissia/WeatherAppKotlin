@@ -1,5 +1,6 @@
 package com.example.weatherapp2
 
+// Класс для хранения информации о погоде на один день
 data class DayItem(
     val city:String,
     val time: String,

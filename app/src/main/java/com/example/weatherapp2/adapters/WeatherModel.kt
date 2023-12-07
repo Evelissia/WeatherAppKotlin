@@ -1,5 +1,5 @@
 package com.example.weatherapp2.adapters
-
+// Модель данных для представления информации о погоде
 data class WeatherModel(
     val city: String,
     val time: String,
@@ -9,5 +9,4 @@ data class WeatherModel(
     val minTemp: String,
     val imageUrl: String,
     val hours: String
-
 )
